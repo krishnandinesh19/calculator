@@ -1,7 +1,6 @@
 .calculator {
     width: 300px;
     margin: 20px auto;
-    background-color: rgb(3, 100, 104);
     border: 1px solid #ccc;
     padding: 20px 20px;
     border-radius: 5px;
@@ -37,32 +36,9 @@
   }
   
   .result {
-    color: aliceblue;
+    color: black;
     margin-right: 100px;
     margin-bottom: 10px;
     font-size: 18px;
   }
-  .clearButton {
-    text-align: center;
-    align-items: center;
-    position: relative;
-    color: var(--glow-color);
-    padding: 0.5em 1em;
-    border: 0.15em solid var(--glow-color);
-    border-radius: 0.45em;
-    background: linear-gradient(270deg, transparent, #03e9f4);
-    perspective: 2em;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 1em;
-    -webkit-box-shadow: inset 0px 0px 0.5em 0px;
-    -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
-      0px 0px 0.5em 0px var(--glow-color);
-    animation: border-flicker 2s linear infinite;
-  }
-  .clearButton hover {
-    animation: glow 1500ms infinite;
-  }
+  
