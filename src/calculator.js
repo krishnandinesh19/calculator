@@ -11,7 +11,7 @@ const Calculator = () => {
 
   const handleEvaluate = () => {
     try {
-      setResult(`eval(input).toString()`);
+      setResult(eval(input).toString());
     } catch (error) {
       setResult("Error");
     }
